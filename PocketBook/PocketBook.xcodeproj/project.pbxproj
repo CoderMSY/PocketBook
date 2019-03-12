@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A2E41FC8120DF1B9990CAD /* libPods-PocketBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD010B08B6108E190DD2D79 /* libPods-PocketBook.a */; };
+		7E358756222F9DEB003781C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358755222F9DEB003781C0 /* AppDelegate.m */; };
+		7E358759222F9DEB003781C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358758222F9DEB003781C0 /* ViewController.m */; };
+		7E35875C222F9DEB003781C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35875A222F9DEB003781C0 /* Main.storyboard */; };
+		7E35875E222F9DEE003781C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E35875D222F9DEE003781C0 /* Assets.xcassets */; };
+		7E358761222F9DEE003781C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35875F222F9DEE003781C0 /* LaunchScreen.storyboard */; };
+		7E358764222F9DEE003781C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358763222F9DEE003781C0 /* main.m */; };
+		7E35876E222F9DEF003781C0 /* PocketBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E35876D222F9DEF003781C0 /* PocketBookTests.m */; };
+		7E358779222F9DEF003781C0 /* PocketBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358778222F9DEF003781C0 /* PocketBookUITests.m */; };
+		7E35878B222FAC48003781C0 /* ATTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E35878A222FAC48003781C0 /* ATTabBarControllerConfig.m */; };
+		7E35878D222FAD13003781C0 /* ATTabBarCtrConfigList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E35878C222FAD13003781C0 /* ATTabBarCtrConfigList.plist */; };
+		7E358793222FB28D003781C0 /* ATBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358791222FB28D003781C0 /* ATBaseNavigationController.m */; };
+		7E358799222FB394003781C0 /* UIColor+ATHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358797222FB394003781C0 /* UIColor+ATHelper.m */; };
+		7E35879F222FB774003781C0 /* ATBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E35879E222FB774003781C0 /* ATBaseViewController.m */; };
+		7E3587A2222FB7A2003781C0 /* ATHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587A1222FB7A2003781C0 /* ATHomeViewController.m */; };
+		7E3587A5222FB7AF003781C0 /* ATMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587A4222FB7AF003781C0 /* ATMyViewController.m */; };
+		7E3587B0222FC713003781C0 /* ATFinancialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587AF222FC713003781C0 /* ATFinancialViewController.m */; };
+		7E3587B3222FC744003781C0 /* ATFinancialInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587B2222FC744003781C0 /* ATFinancialInteractor.m */; };
+		7E3587B6222FC753003781C0 /* ATFinancialPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587B5222FC753003781C0 /* ATFinancialPresenter.m */; };
+		7E3587B9222FC761003781C0 /* ATFinancialRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587B8222FC761003781C0 /* ATFinancialRouter.m */; };
+		7E3587BC222FCABF003781C0 /* ATFinancialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587BB222FCABF003781C0 /* ATFinancialView.m */; };
+		7E3587C1222FD1A4003781C0 /* ATFinancialMoreOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587C0222FD1A4003781C0 /* ATFinancialMoreOptionModel.m */; };
+		7E3587C4222FD1D8003781C0 /* ATFinancialModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587C3222FD1D8003781C0 /* ATFinancialModuleModel.m */; };
+		7EA00C6E22379FF1004D1C85 /* ATModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA00C6D22379FF1004D1C85 /* ATModuleManager.m */; };
+		7EA00C732237A181004D1C85 /* ATModuleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA00C722237A181004D1C85 /* ATModuleList.plist */; };
+		7EAEF8EB2231FF48008960AA /* ATBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8EA2231FF48008960AA /* ATBaseTableViewCell.m */; };
+		7EAEF8EE223200D7008960AA /* ATFinancialMoreOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8ED223200D7008960AA /* ATFinancialMoreOptionCell.m */; };
+		7EAEF8F32232031A008960AA /* ATBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8F22232031A008960AA /* ATBaseCollectionViewCell.m */; };
+		7EAEF8F622320388008960AA /* ATFinancialModuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8F522320388008960AA /* ATFinancialModuleCell.m */; };
+		7EAEF8FA22320572008960AA /* UILabel+ATHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8F822320572008960AA /* UILabel+ATHelper.m */; };
+		7EAEF90422324507008960AA /* ATProvidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF90322324507008960AA /* ATProvidentViewController.m */; };
+		7EAEF90722324532008960AA /* ATProvidentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF90622324532008960AA /* ATProvidentView.m */; };
+		7EAEF90A22324544008960AA /* ATProvidentPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF90922324544008960AA /* ATProvidentPresenter.m */; };
+		7EAEF90D22324558008960AA /* ATProvidentInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF90C22324558008960AA /* ATProvidentInteractor.m */; };
+		7EAEF91022324573008960AA /* ATProvidentRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF90F22324573008960AA /* ATProvidentRouter.m */; };
+		7EAEF91722324C71008960AA /* UIView+ATKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF91622324C71008960AA /* UIView+ATKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E35876A222F9DEF003781C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E358749222F9DEB003781C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E358750222F9DEB003781C0;
+			remoteInfo = PocketBook;
+		};
+		7E358775222F9DEF003781C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E358749222F9DEB003781C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E358750222F9DEB003781C0;
+			remoteInfo = PocketBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682226F92F4D8C1A95F974DE /* Pods-PocketBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBook.release.xcconfig"; path = "Target Support Files/Pods-PocketBook/Pods-PocketBook.release.xcconfig"; sourceTree = "<group>"; };
+		7E358751222F9DEB003781C0 /* PocketBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E358754222F9DEB003781C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E358755222F9DEB003781C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E358757222F9DEB003781C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E358758222F9DEB003781C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E35875B222F9DEB003781C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E35875D222F9DEE003781C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E358760222F9DEE003781C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E358762222F9DEE003781C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E358763222F9DEE003781C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E358769222F9DEF003781C0 /* PocketBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E35876D222F9DEF003781C0 /* PocketBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketBookTests.m; sourceTree = "<group>"; };
+		7E35876F222F9DEF003781C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E358774222F9DEF003781C0 /* PocketBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E358778222F9DEF003781C0 /* PocketBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketBookUITests.m; sourceTree = "<group>"; };
+		7E35877A222F9DEF003781C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E358789222FAC48003781C0 /* ATTabBarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATTabBarControllerConfig.h; sourceTree = "<group>"; };
+		7E35878A222FAC48003781C0 /* ATTabBarControllerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATTabBarControllerConfig.m; sourceTree = "<group>"; };
+		7E35878C222FAD13003781C0 /* ATTabBarCtrConfigList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ATTabBarCtrConfigList.plist; sourceTree = "<group>"; };
+		7E358791222FB28D003781C0 /* ATBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBaseNavigationController.m; sourceTree = "<group>"; };
+		7E358792222FB28D003781C0 /* ATBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBaseNavigationController.h; sourceTree = "<group>"; };
+		7E358797222FB394003781C0 /* UIColor+ATHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ATHelper.m"; sourceTree = "<group>"; };
+		7E358798222FB394003781C0 /* UIColor+ATHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ATHelper.h"; sourceTree = "<group>"; };
+		7E35879D222FB774003781C0 /* ATBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseViewController.h; sourceTree = "<group>"; };
+		7E35879E222FB774003781C0 /* ATBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseViewController.m; sourceTree = "<group>"; };
+		7E3587A0222FB7A2003781C0 /* ATHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomeViewController.h; sourceTree = "<group>"; };
+		7E3587A1222FB7A2003781C0 /* ATHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomeViewController.m; sourceTree = "<group>"; };
+		7E3587A3222FB7AF003781C0 /* ATMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATMyViewController.h; sourceTree = "<group>"; };
+		7E3587A4222FB7AF003781C0 /* ATMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATMyViewController.m; sourceTree = "<group>"; };
+		7E3587AE222FC713003781C0 /* ATFinancialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialViewController.h; sourceTree = "<group>"; };
+		7E3587AF222FC713003781C0 /* ATFinancialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialViewController.m; sourceTree = "<group>"; };
+		7E3587B1222FC744003781C0 /* ATFinancialInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialInteractor.h; sourceTree = "<group>"; };
+		7E3587B2222FC744003781C0 /* ATFinancialInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialInteractor.m; sourceTree = "<group>"; };
+		7E3587B4222FC753003781C0 /* ATFinancialPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialPresenter.h; sourceTree = "<group>"; };
+		7E3587B5222FC753003781C0 /* ATFinancialPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialPresenter.m; sourceTree = "<group>"; };
+		7E3587B7222FC761003781C0 /* ATFinancialRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialRouter.h; sourceTree = "<group>"; };
+		7E3587B8222FC761003781C0 /* ATFinancialRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialRouter.m; sourceTree = "<group>"; };
+		7E3587BA222FCABF003781C0 /* ATFinancialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialView.h; sourceTree = "<group>"; };
+		7E3587BB222FCABF003781C0 /* ATFinancialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialView.m; sourceTree = "<group>"; };
+		7E3587BD222FCD8D003781C0 /* ATFinancialModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModuleInterface.h; sourceTree = "<group>"; };
+		7E3587BE222FCE4D003781C0 /* ATFinancialInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialInteractorIO.h; sourceTree = "<group>"; };
+		7E3587BF222FD1A4003781C0 /* ATFinancialMoreOptionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialMoreOptionModel.h; sourceTree = "<group>"; };
+		7E3587C0222FD1A4003781C0 /* ATFinancialMoreOptionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialMoreOptionModel.m; sourceTree = "<group>"; };
+		7E3587C2222FD1D8003781C0 /* ATFinancialModuleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModuleModel.h; sourceTree = "<group>"; };
+		7E3587C3222FD1D8003781C0 /* ATFinancialModuleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialModuleModel.m; sourceTree = "<group>"; };
+		7E3587C5222FD22B003781C0 /* ATFinancialMuduleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialMuduleConfig.h; sourceTree = "<group>"; };
+		7EA00C6C22379FF1004D1C85 /* ATModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATModuleManager.h; sourceTree = "<group>"; };
+		7EA00C6D22379FF1004D1C85 /* ATModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATModuleManager.m; sourceTree = "<group>"; };
+		7EA00C6F2237A04B004D1C85 /* ATPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATPrefixHeader.pch; sourceTree = "<group>"; };
+		7EA00C712237A117004D1C85 /* ATSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATSingleton.h; sourceTree = "<group>"; };
+		7EA00C722237A181004D1C85 /* ATModuleList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ATModuleList.plist; sourceTree = "<group>"; };
+		7EAEF8E92231FF48008960AA /* ATBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseTableViewCell.h; sourceTree = "<group>"; };
+		7EAEF8EA2231FF48008960AA /* ATBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseTableViewCell.m; sourceTree = "<group>"; };
+		7EAEF8EC223200D7008960AA /* ATFinancialMoreOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialMoreOptionCell.h; sourceTree = "<group>"; };
+		7EAEF8ED223200D7008960AA /* ATFinancialMoreOptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialMoreOptionCell.m; sourceTree = "<group>"; };
+		7EAEF8F12232031A008960AA /* ATBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		7EAEF8F22232031A008960AA /* ATBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		7EAEF8F422320388008960AA /* ATFinancialModuleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModuleCell.h; sourceTree = "<group>"; };
+		7EAEF8F522320388008960AA /* ATFinancialModuleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialModuleCell.m; sourceTree = "<group>"; };
+		7EAEF8F822320572008960AA /* UILabel+ATHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ATHelper.m"; sourceTree = "<group>"; };
+		7EAEF8F922320572008960AA /* UILabel+ATHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ATHelper.h"; sourceTree = "<group>"; };
+		7EAEF8FB22320C42008960AA /* ATFinancialViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialViewInterface.h; sourceTree = "<group>"; };
+		7EAEF90222324507008960AA /* ATProvidentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentViewController.h; sourceTree = "<group>"; };
+		7EAEF90322324507008960AA /* ATProvidentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATProvidentViewController.m; sourceTree = "<group>"; };
+		7EAEF90522324532008960AA /* ATProvidentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentView.h; sourceTree = "<group>"; };
+		7EAEF90622324532008960AA /* ATProvidentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATProvidentView.m; sourceTree = "<group>"; };
+		7EAEF90822324544008960AA /* ATProvidentPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentPresenter.h; sourceTree = "<group>"; };
+		7EAEF90922324544008960AA /* ATProvidentPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATProvidentPresenter.m; sourceTree = "<group>"; };
+		7EAEF90B22324558008960AA /* ATProvidentInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentInteractor.h; sourceTree = "<group>"; };
+		7EAEF90C22324558008960AA /* ATProvidentInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATProvidentInteractor.m; sourceTree = "<group>"; };
+		7EAEF90E22324573008960AA /* ATProvidentRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentRouter.h; sourceTree = "<group>"; };
+		7EAEF90F22324573008960AA /* ATProvidentRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATProvidentRouter.m; sourceTree = "<group>"; };
+		7EAEF9112232463A008960AA /* ATProvidentViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentViewInterface.h; sourceTree = "<group>"; };
+		7EAEF9122232465D008960AA /* ATProvidentModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentModuleInterface.h; sourceTree = "<group>"; };
+		7EAEF91322324950008960AA /* ATProvidentInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATProvidentInteractorIO.h; sourceTree = "<group>"; };
+		7EAEF91522324C71008960AA /* UIView+ATKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ATKit.h"; sourceTree = "<group>"; };
+		7EAEF91622324C71008960AA /* UIView+ATKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ATKit.m"; sourceTree = "<group>"; };
+		7EAEF91822324E63008960AA /* ATFinancialViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialViewProtocol.h; sourceTree = "<group>"; };
+		9BD010B08B6108E190DD2D79 /* libPods-PocketBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB3C0CDDA2B16AEAA263F0 /* Pods-PocketBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBook.debug.xcconfig"; path = "Target Support Files/Pods-PocketBook/Pods-PocketBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E35874E222F9DEB003781C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A2E41FC8120DF1B9990CAD /* libPods-PocketBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358766222F9DEF003781C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358771222F9DEF003781C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3BF2387C5EFF68766A74C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD010B08B6108E190DD2D79 /* libPods-PocketBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E358748222F9DEB003781C0 = {
+			isa = PBXGroup;
+			children = (
+				7E358753222F9DEB003781C0 /* PocketBook */,
+				7E35876C222F9DEF003781C0 /* PocketBookTests */,
+				7E358777222F9DEF003781C0 /* PocketBookUITests */,
+				7E358752222F9DEB003781C0 /* Products */,
+				C8C6CE7955DC9970F7CA8B6B /* Pods */,
+				0F3BF2387C5EFF68766A74C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E358752222F9DEB003781C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E358751222F9DEB003781C0 /* PocketBook.app */,
+				7E358769222F9DEF003781C0 /* PocketBookTests.xctest */,
+				7E358774222F9DEF003781C0 /* PocketBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E358753222F9DEB003781C0 /* PocketBook */ = {
+			isa = PBXGroup;
+			children = (
+				7E35878E222FB26D003781C0 /* Common */,
+				7E358787222FAC1D003781C0 /* Core */,
+				7E358786222FAC03003781C0 /* Modules */,
+				7E358754222F9DEB003781C0 /* AppDelegate.h */,
+				7E358755222F9DEB003781C0 /* AppDelegate.m */,
+				7E358757222F9DEB003781C0 /* ViewController.h */,
+				7E358758222F9DEB003781C0 /* ViewController.m */,
+				7E35875A222F9DEB003781C0 /* Main.storyboard */,
+				7E35875D222F9DEE003781C0 /* Assets.xcassets */,
+				7E35875F222F9DEE003781C0 /* LaunchScreen.storyboard */,
+				7E358762222F9DEE003781C0 /* Info.plist */,
+				7E358763222F9DEE003781C0 /* main.m */,
+				7EA00C6F2237A04B004D1C85 /* ATPrefixHeader.pch */,
+			);
+			path = PocketBook;
+			sourceTree = "<group>";
+		};
+		7E35876C222F9DEF003781C0 /* PocketBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E35876D222F9DEF003781C0 /* PocketBookTests.m */,
+				7E35876F222F9DEF003781C0 /* Info.plist */,
+			);
+			path = PocketBookTests;
+			sourceTree = "<group>";
+		};
+		7E358777222F9DEF003781C0 /* PocketBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E358778222F9DEF003781C0 /* PocketBookUITests.m */,
+				7E35877A222F9DEF003781C0 /* Info.plist */,
+			);
+			path = PocketBookUITests;
+			sourceTree = "<group>";
+		};
+		7E358786222FAC03003781C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587A7222FC610003781C0 /* Financial */,
+				7E35879B222FB74F003781C0 /* Home */,
+				7E35879A222FB74A003781C0 /* My */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7E358787222FAC1D003781C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7EA00C6B22379FDE004D1C85 /* ModuleManager */,
+				7E358788222FAC27003781C0 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7E358788222FAC27003781C0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7E358789222FAC48003781C0 /* ATTabBarControllerConfig.h */,
+				7E35878A222FAC48003781C0 /* ATTabBarControllerConfig.m */,
+				7E35878C222FAD13003781C0 /* ATTabBarCtrConfigList.plist */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7E35878E222FB26D003781C0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7EA00C702237A0FB004D1C85 /* Configure_h */,
+				7E358794222FB372003781C0 /* Legacy */,
+				7E35878F222FB276003781C0 /* BaseClass */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7E35878F222FB276003781C0 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8E72231FF22008960AA /* BaseView */,
+				7E35879C222FB75E003781C0 /* BaseViewController */,
+				7E358790222FB27D003781C0 /* BaseNavigationController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7E358790222FB27D003781C0 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7E358792222FB28D003781C0 /* ATBaseNavigationController.h */,
+				7E358791222FB28D003781C0 /* ATBaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		7E358794222FB372003781C0 /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				7E358795222FB379003781C0 /* Category */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+		7E358795222FB379003781C0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF91422324C65008960AA /* UIView+ */,
+				7EAEF8F722320566008960AA /* UILabel+ */,
+				7E358796222FB386003781C0 /* UIColor+ */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7E358796222FB386003781C0 /* UIColor+ */ = {
+			isa = PBXGroup;
+			children = (
+				7E358798222FB394003781C0 /* UIColor+ATHelper.h */,
+				7E358797222FB394003781C0 /* UIColor+ATHelper.m */,
+			);
+			path = "UIColor+";
+			sourceTree = "<group>";
+		};
+		7E35879A222FB74A003781C0 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587A3222FB7AF003781C0 /* ATMyViewController.h */,
+				7E3587A4222FB7AF003781C0 /* ATMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		7E35879B222FB74F003781C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587A0222FB7A2003781C0 /* ATHomeViewController.h */,
+				7E3587A1222FB7A2003781C0 /* ATHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E35879C222FB75E003781C0 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E35879D222FB774003781C0 /* ATBaseViewController.h */,
+				7E35879E222FB774003781C0 /* ATBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		7E3587A7222FC610003781C0 /* Financial */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8FC22324491008960AA /* Provident */,
+				7E3587A8222FC657003781C0 /* Financial */,
+			);
+			path = Financial;
+			sourceTree = "<group>";
+		};
+		7E3587A8222FC657003781C0 /* Financial */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587AD222FC703003781C0 /* View */,
+				7E3587AC222FC6F9003781C0 /* Interactor */,
+				7E3587AB222FC6E9003781C0 /* Presenter */,
+				7E3587AA222FC6DF003781C0 /* Entity */,
+				7E3587A9222FC6DB003781C0 /* Router */,
+			);
+			path = Financial;
+			sourceTree = "<group>";
+		};
+		7E3587A9222FC6DB003781C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587B7222FC761003781C0 /* ATFinancialRouter.h */,
+				7E3587B8222FC761003781C0 /* ATFinancialRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7E3587AA222FC6DF003781C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587BF222FD1A4003781C0 /* ATFinancialMoreOptionModel.h */,
+				7E3587C0222FD1A4003781C0 /* ATFinancialMoreOptionModel.m */,
+				7E3587C2222FD1D8003781C0 /* ATFinancialModuleModel.h */,
+				7E3587C3222FD1D8003781C0 /* ATFinancialModuleModel.m */,
+				7E3587C5222FD22B003781C0 /* ATFinancialMuduleConfig.h */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7E3587AB222FC6E9003781C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587B4222FC753003781C0 /* ATFinancialPresenter.h */,
+				7E3587B5222FC753003781C0 /* ATFinancialPresenter.m */,
+				7E3587BD222FCD8D003781C0 /* ATFinancialModuleInterface.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E3587AC222FC6F9003781C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587B1222FC744003781C0 /* ATFinancialInteractor.h */,
+				7E3587B2222FC744003781C0 /* ATFinancialInteractor.m */,
+				7E3587BE222FCE4D003781C0 /* ATFinancialInteractorIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7E3587AD222FC703003781C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587AE222FC713003781C0 /* ATFinancialViewController.h */,
+				7E3587AF222FC713003781C0 /* ATFinancialViewController.m */,
+				7EAEF8FB22320C42008960AA /* ATFinancialViewInterface.h */,
+				7E3587BA222FCABF003781C0 /* ATFinancialView.h */,
+				7E3587BB222FCABF003781C0 /* ATFinancialView.m */,
+				7EAEF91822324E63008960AA /* ATFinancialViewProtocol.h */,
+				7EAEF8EF223202C5008960AA /* MoreOption */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EA00C6B22379FDE004D1C85 /* ModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				7EA00C6C22379FF1004D1C85 /* ATModuleManager.h */,
+				7EA00C6D22379FF1004D1C85 /* ATModuleManager.m */,
+				7EA00C722237A181004D1C85 /* ATModuleList.plist */,
+			);
+			path = ModuleManager;
+			sourceTree = "<group>";
+		};
+		7EA00C702237A0FB004D1C85 /* Configure_h */ = {
+			isa = PBXGroup;
+			children = (
+				7EA00C712237A117004D1C85 /* ATSingleton.h */,
+			);
+			path = Configure_h;
+			sourceTree = "<group>";
+		};
+		7EAEF8E72231FF22008960AA /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8F0223202F0008960AA /* BaseCollectionViewCell */,
+				7EAEF8E82231FF2E008960AA /* BaseTableViewCell */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		7EAEF8E82231FF2E008960AA /* BaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8E92231FF48008960AA /* ATBaseTableViewCell.h */,
+				7EAEF8EA2231FF48008960AA /* ATBaseTableViewCell.m */,
+			);
+			path = BaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		7EAEF8EF223202C5008960AA /* MoreOption */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8EC223200D7008960AA /* ATFinancialMoreOptionCell.h */,
+				7EAEF8ED223200D7008960AA /* ATFinancialMoreOptionCell.m */,
+				7EAEF8F422320388008960AA /* ATFinancialModuleCell.h */,
+				7EAEF8F522320388008960AA /* ATFinancialModuleCell.m */,
+			);
+			path = MoreOption;
+			sourceTree = "<group>";
+		};
+		7EAEF8F0223202F0008960AA /* BaseCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8F12232031A008960AA /* ATBaseCollectionViewCell.h */,
+				7EAEF8F22232031A008960AA /* ATBaseCollectionViewCell.m */,
+			);
+			path = BaseCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7EAEF8F722320566008960AA /* UILabel+ */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF8F922320572008960AA /* UILabel+ATHelper.h */,
+				7EAEF8F822320572008960AA /* UILabel+ATHelper.m */,
+			);
+			path = "UILabel+";
+			sourceTree = "<group>";
+		};
+		7EAEF8FC22324491008960AA /* Provident */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF901223244C0008960AA /* Presenter */,
+				7EAEF900223244BD008960AA /* View */,
+				7EAEF8FF223244BA008960AA /* Interactor */,
+				7EAEF8FE223244B1008960AA /* Entity */,
+				7EAEF8FD223244A4008960AA /* Router */,
+			);
+			path = Provident;
+			sourceTree = "<group>";
+		};
+		7EAEF8FD223244A4008960AA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF90E22324573008960AA /* ATProvidentRouter.h */,
+				7EAEF90F22324573008960AA /* ATProvidentRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7EAEF8FE223244B1008960AA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7EAEF8FF223244BA008960AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF90B22324558008960AA /* ATProvidentInteractor.h */,
+				7EAEF90C22324558008960AA /* ATProvidentInteractor.m */,
+				7EAEF91322324950008960AA /* ATProvidentInteractorIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EAEF900223244BD008960AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF90222324507008960AA /* ATProvidentViewController.h */,
+				7EAEF90322324507008960AA /* ATProvidentViewController.m */,
+				7EAEF9112232463A008960AA /* ATProvidentViewInterface.h */,
+				7EAEF90522324532008960AA /* ATProvidentView.h */,
+				7EAEF90622324532008960AA /* ATProvidentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EAEF901223244C0008960AA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF90822324544008960AA /* ATProvidentPresenter.h */,
+				7EAEF90922324544008960AA /* ATProvidentPresenter.m */,
+				7EAEF9122232465D008960AA /* ATProvidentModuleInterface.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EAEF91422324C65008960AA /* UIView+ */ = {
+			isa = PBXGroup;
+			children = (
+				7EAEF91522324C71008960AA /* UIView+ATKit.h */,
+				7EAEF91622324C71008960AA /* UIView+ATKit.m */,
+			);
+			path = "UIView+";
+			sourceTree = "<group>";
+		};
+		C8C6CE7955DC9970F7CA8B6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB3C0CDDA2B16AEAA263F0 /* Pods-PocketBook.debug.xcconfig */,
+				682226F92F4D8C1A95F974DE /* Pods-PocketBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E358750222F9DEB003781C0 /* PocketBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E35877D222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBook" */;
+			buildPhases = (
+				09C70019708251EAD2120E86 /* [CP] Check Pods Manifest.lock */,
+				7E35874D222F9DEB003781C0 /* Sources */,
+				7E35874E222F9DEB003781C0 /* Frameworks */,
+				7E35874F222F9DEB003781C0 /* Resources */,
+				EE70B6127585B617BC8D99E5 /* [CP] Embed Pods Frameworks */,
+				6F62AAC0917D74FD8CA613E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketBook;
+			productName = PocketBook;
+			productReference = 7E358751222F9DEB003781C0 /* PocketBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E358768222F9DEF003781C0 /* PocketBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E358780222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBookTests" */;
+			buildPhases = (
+				7E358765222F9DEF003781C0 /* Sources */,
+				7E358766222F9DEF003781C0 /* Frameworks */,
+				7E358767222F9DEF003781C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E35876B222F9DEF003781C0 /* PBXTargetDependency */,
+			);
+			name = PocketBookTests;
+			productName = PocketBookTests;
+			productReference = 7E358769222F9DEF003781C0 /* PocketBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E358773222F9DEF003781C0 /* PocketBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E358783222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBookUITests" */;
+			buildPhases = (
+				7E358770222F9DEF003781C0 /* Sources */,
+				7E358771222F9DEF003781C0 /* Frameworks */,
+				7E358772222F9DEF003781C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E358776222F9DEF003781C0 /* PBXTargetDependency */,
+			);
+			name = PocketBookUITests;
+			productName = PocketBookUITests;
+			productReference = 7E358774222F9DEF003781C0 /* PocketBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E358749222F9DEB003781C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AT;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = avatar;
+				TargetAttributes = {
+					7E358750222F9DEB003781C0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7E358768222F9DEF003781C0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7E358750222F9DEB003781C0;
+					};
+					7E358773222F9DEF003781C0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7E358750222F9DEB003781C0;
+					};
+				};
+			};
+			buildConfigurationList = 7E35874C222F9DEB003781C0 /* Build configuration list for PBXProject "PocketBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E358748222F9DEB003781C0;
+			productRefGroup = 7E358752222F9DEB003781C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E358750222F9DEB003781C0 /* PocketBook */,
+				7E358768222F9DEF003781C0 /* PocketBookTests */,
+				7E358773222F9DEF003781C0 /* PocketBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E35874F222F9DEB003781C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E358761222F9DEE003781C0 /* LaunchScreen.storyboard in Resources */,
+				7E35878D222FAD13003781C0 /* ATTabBarCtrConfigList.plist in Resources */,
+				7E35875E222F9DEE003781C0 /* Assets.xcassets in Resources */,
+				7E35875C222F9DEB003781C0 /* Main.storyboard in Resources */,
+				7EA00C732237A181004D1C85 /* ATModuleList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358767222F9DEF003781C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358772222F9DEF003781C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C70019708251EAD2120E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F62AAC0917D74FD8CA613E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketBook/Pods-PocketBook-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoraemonKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketBook/Pods-PocketBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE70B6127585B617BC8D99E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketBook/Pods-PocketBook-frameworks.sh",
+				"${PODS_ROOT}/DoraemonKit/iOS/DoraemonKit/Framework/DoraemonLoadAnalyze.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoraemonLoadAnalyze.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketBook/Pods-PocketBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E35874D222F9DEB003781C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E35879F222FB774003781C0 /* ATBaseViewController.m in Sources */,
+				7E35878B222FAC48003781C0 /* ATTabBarControllerConfig.m in Sources */,
+				7E3587A5222FB7AF003781C0 /* ATMyViewController.m in Sources */,
+				7E3587BC222FCABF003781C0 /* ATFinancialView.m in Sources */,
+				7EAEF90722324532008960AA /* ATProvidentView.m in Sources */,
+				7EAEF8EE223200D7008960AA /* ATFinancialMoreOptionCell.m in Sources */,
+				7EAEF8F622320388008960AA /* ATFinancialModuleCell.m in Sources */,
+				7E358759222F9DEB003781C0 /* ViewController.m in Sources */,
+				7EAEF8F32232031A008960AA /* ATBaseCollectionViewCell.m in Sources */,
+				7E358764222F9DEE003781C0 /* main.m in Sources */,
+				7EA00C6E22379FF1004D1C85 /* ATModuleManager.m in Sources */,
+				7E3587B3222FC744003781C0 /* ATFinancialInteractor.m in Sources */,
+				7E358799222FB394003781C0 /* UIColor+ATHelper.m in Sources */,
+				7E3587B9222FC761003781C0 /* ATFinancialRouter.m in Sources */,
+				7E358793222FB28D003781C0 /* ATBaseNavigationController.m in Sources */,
+				7EAEF90D22324558008960AA /* ATProvidentInteractor.m in Sources */,
+				7EAEF8FA22320572008960AA /* UILabel+ATHelper.m in Sources */,
+				7E3587C4222FD1D8003781C0 /* ATFinancialModuleModel.m in Sources */,
+				7EAEF90422324507008960AA /* ATProvidentViewController.m in Sources */,
+				7EAEF90A22324544008960AA /* ATProvidentPresenter.m in Sources */,
+				7EAEF91022324573008960AA /* ATProvidentRouter.m in Sources */,
+				7E3587B0222FC713003781C0 /* ATFinancialViewController.m in Sources */,
+				7E3587C1222FD1A4003781C0 /* ATFinancialMoreOptionModel.m in Sources */,
+				7E3587A2222FB7A2003781C0 /* ATHomeViewController.m in Sources */,
+				7EAEF8EB2231FF48008960AA /* ATBaseTableViewCell.m in Sources */,
+				7EAEF91722324C71008960AA /* UIView+ATKit.m in Sources */,
+				7E3587B6222FC753003781C0 /* ATFinancialPresenter.m in Sources */,
+				7E358756222F9DEB003781C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358765222F9DEF003781C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E35876E222F9DEF003781C0 /* PocketBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E358770222F9DEF003781C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E358779222F9DEF003781C0 /* PocketBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E35876B222F9DEF003781C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E358750222F9DEB003781C0 /* PocketBook */;
+			targetProxy = 7E35876A222F9DEF003781C0 /* PBXContainerItemProxy */;
+		};
+		7E358776222F9DEF003781C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E358750222F9DEB003781C0 /* PocketBook */;
+			targetProxy = 7E358775222F9DEF003781C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E35875A222F9DEB003781C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E35875B222F9DEB003781C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E35875F222F9DEE003781C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E358760222F9DEE003781C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E35877B222F9DEF003781C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E35877C222F9DEF003781C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E35877E222F9DEF003781C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EB3C0CDDA2B16AEAA263F0 /* Pods-PocketBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				GCC_PREFIX_HEADER = $SRCROOT/PocketBook/ATPrefixHeader.pch;
+				INFOPLIST_FILE = PocketBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E35877F222F9DEF003781C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682226F92F4D8C1A95F974DE /* Pods-PocketBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				GCC_PREFIX_HEADER = $SRCROOT/PocketBook/ATPrefixHeader.pch;
+				INFOPLIST_FILE = PocketBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E358781222F9DEF003781C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				INFOPLIST_FILE = PocketBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketBook.app/PocketBook";
+			};
+			name = Debug;
+		};
+		7E358782222F9DEF003781C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				INFOPLIST_FILE = PocketBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketBook.app/PocketBook";
+			};
+			name = Release;
+		};
+		7E358784222F9DEF003781C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				INFOPLIST_FILE = PocketBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketBook;
+			};
+			name = Debug;
+		};
+		7E358785222F9DEF003781C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHH85LCW4M;
+				INFOPLIST_FILE = PocketBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.PocketBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E35874C222F9DEB003781C0 /* Build configuration list for PBXProject "PocketBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E35877B222F9DEF003781C0 /* Debug */,
+				7E35877C222F9DEF003781C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E35877D222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E35877E222F9DEF003781C0 /* Debug */,
+				7E35877F222F9DEF003781C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E358780222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E358781222F9DEF003781C0 /* Debug */,
+				7E358782222F9DEF003781C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E358783222F9DEF003781C0 /* Build configuration list for PBXNativeTarget "PocketBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E358784222F9DEF003781C0 /* Debug */,
+				7E358785222F9DEF003781C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E358749222F9DEB003781C0 /* Project object */;
+}

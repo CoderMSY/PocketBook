@@ -1,0 +1,26 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,’9.0’
+inhibit_all_warnings!
+
+target 'PocketBook' do
+
+pod 'BGFMDB'
+pod 'IQKeyboardManager'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'DateTools'
+pod 'CYLTabBarController'
+pod 'MBProgressHUD'
+pod 'UIAlertController+Blocks'
+pod 'FSCalendar'
+pod 'Aspects'
+pod 'MGJRouter'
+#滴滴App研发助手
+pod 'DoraemonKit/Core', '~> 1.1.4', :configurations => ['Debug']
+pod 'DoraemonKit/WithLogger', '~> 1.1.4', :configurations => ['Debug']
+pod 'DoraemonKit/WithGPS', '~> 1.1.4', :configurations => ['Debug']
+
+
+end
+

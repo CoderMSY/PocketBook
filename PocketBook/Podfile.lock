@@ -1,0 +1,129 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - BSBacktraceLogger (0.0.1)
+  - CocoaLumberjack (3.5.1):
+    - CocoaLumberjack/Core (= 3.5.1)
+  - CocoaLumberjack/Core (3.5.1)
+  - CYLTabBarController (1.17.22)
+  - DateTools (2.0.0)
+  - DoraemonKit/Core (1.1.4):
+    - AFNetworking
+    - BSBacktraceLogger
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DoraemonKit/WithGPS (1.1.4):
+    - AFNetworking
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DoraemonKit/WithLogger (1.1.4):
+    - AFNetworking
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - DoraemonKit/Core
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - fishhook (0.2)
+  - FSCalendar (2.8.0)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MGJRouter (0.10.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - "UIAlertController+Blocks (0.9.2)"
+  - UICountingLabel (1.2.0)
+  - "UITextView+Placeholder (1.2.1)"
+
+DEPENDENCIES:
+  - Aspects
+  - BGFMDB
+  - CYLTabBarController
+  - DateTools
+  - DoraemonKit/Core (~> 1.1.4)
+  - DoraemonKit/WithGPS (~> 1.1.4)
+  - DoraemonKit/WithLogger (~> 1.1.4)
+  - FSCalendar
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MGJRouter
+  - MJExtension
+  - MJRefresh
+  - "UIAlertController+Blocks"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - BGFMDB
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - CYLTabBarController
+    - DateTools
+    - DoraemonKit
+    - fishhook
+    - FSCalendar
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter
+    - MJExtension
+    - MJRefresh
+    - PNChart
+    - "UIAlertController+Blocks"
+    - UICountingLabel
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  CYLTabBarController: 35784c2969383583d11cc56ff5abce078f19d94a
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  DoraemonKit: 5660bbbd6abb5ff39a0ff3fb33f153d7745c5c10
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  "UIAlertController+Blocks": 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+
+PODFILE CHECKSUM: 384834662ec9c90dc7ff4fd48dd005b0d61f239f
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ATTabBarCtrConfigList.plist
+   PocketBook
+
+   Created by SimonMiao on 2019/3/6.
+   Copyright (c) 2019 avatar. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>1</key>
+        <dict>
+            <key>tabBarVC</key>
+            <string>ATHomeViewController</string>
+            <key>tabBarVCTitle</key>
+            <string>首页</string>
+            <key>tabBarItemImage</key>
+            <string>tabBar_application_normal</string>
+            <key>tabBarItemSelectedImage</key>
+            <string>tabBar_application_highlight</string>
+        </dict>
+        <key>2</key>
+        <dict>
+            <key>tabBarVC</key>
+            <string>ATFinancialViewController</string>
+            <key>tabBarVCTitle</key>
+            <string>财富</string>
+            <key>tabBarItemImage</key>
+            <string>tabBar_contacts_normal</string>
+            <key>tabBarItemSelectedImage</key>
+            <string>tabBar_contacts_highlight</string>
+        </dict>
+        <key>3</key>
+        <dict>
+            <key>tabBarVC</key>
+            <string>ATMyViewController</string>
+            <key>tabBarVCTitle</key>
+            <string>我的</string>
+            <key>tabBarItemImage</key>
+            <string>tabBar_my_normal</string>
+            <key>tabBarItemSelectedImage</key>
+            <string>tabBar_my_highlight</string>
+        </dict>
+        
+    </dict>
+</plist>
