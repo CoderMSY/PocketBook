@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		78A2E41FC8120DF1B9990CAD /* libPods-PocketBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD010B08B6108E190DD2D79 /* libPods-PocketBook.a */; };
+		7E0B8BE3223FD14300055808 /* UIButton+ATHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B8BE2223FD14300055808 /* UIButton+ATHelper.m */; };
+		7E0B8BE7223FD15900055808 /* UIControl+ATFixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B8BE5223FD15900055808 /* UIControl+ATFixMultiClick.m */; };
+		7E0B8BEC2240030B00055808 /* ATBillProcessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B8BEB2240030B00055808 /* ATBillProcessTool.m */; };
+		7E1B594622410DEF0045D19A /* ATBillMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B594522410DEF0045D19A /* ATBillMonthModel.m */; };
 		7E358756222F9DEB003781C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358755222F9DEB003781C0 /* AppDelegate.m */; };
 		7E358759222F9DEB003781C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E358758222F9DEB003781C0 /* ViewController.m */; };
 		7E35875C222F9DEB003781C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35875A222F9DEB003781C0 /* Main.storyboard */; };
@@ -30,8 +34,21 @@
 		7E3587BC222FCABF003781C0 /* ATFinancialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587BB222FCABF003781C0 /* ATFinancialView.m */; };
 		7E3587C1222FD1A4003781C0 /* ATFinancialMoreOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587C0222FD1A4003781C0 /* ATFinancialMoreOptionModel.m */; };
 		7E3587C4222FD1D8003781C0 /* ATFinancialModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3587C3222FD1D8003781C0 /* ATFinancialModuleModel.m */; };
+		7E3B0D0F223F8F98003F43AC /* ATHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B0D0E223F8F98003F43AC /* ATHomePresenter.m */; };
+		7E3B0D12223F8FF0003F43AC /* ATHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B0D11223F8FF0003F43AC /* ATHomeView.m */; };
+		7E3B0D16223F9576003F43AC /* ATBillModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B0D15223F9576003F43AC /* ATBillModel.m */; };
+		7E3B0D19223FA081003F43AC /* ATHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B0D18223FA081003F43AC /* ATHomeHeadView.m */; };
+		7E3E7B77224081E8004EBEA8 /* DetailBill.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E7B7622408157004EBEA8 /* DetailBill.json */; };
+		7E3E7B7C22408931004EBEA8 /* ATDaoFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B7B22408931004EBEA8 /* ATDaoFactory.m */; };
+		7E3E7B80224089F5004EBEA8 /* ATBillDaoImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B7F224089F5004EBEA8 /* ATBillDaoImpl.m */; };
+		7E3E7B852240B5E3004EBEA8 /* UIScrollView+ATRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B842240B5E3004EBEA8 /* UIScrollView+ATRefresh.m */; };
+		7E3E7B882240C50B004EBEA8 /* ATBillDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B872240C50B004EBEA8 /* ATBillDayModel.m */; };
+		7E3E7B8B2240CD8B004EBEA8 /* ATHomeBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B8A2240CD8B004EBEA8 /* ATHomeBillCell.m */; };
+		7E3E7B8F2240D25F004EBEA8 /* ATHomeBillDayHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B8E2240D25F004EBEA8 /* ATHomeBillDayHeaderView.m */; };
+		7E3E7B942240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E7B932240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		7EA00C6E22379FF1004D1C85 /* ATModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA00C6D22379FF1004D1C85 /* ATModuleManager.m */; };
 		7EA00C732237A181004D1C85 /* ATModuleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA00C722237A181004D1C85 /* ATModuleList.plist */; };
+		7EA00C762237A5DB004D1C85 /* ATFinancialModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA00C752237A5DB004D1C85 /* ATFinancialModule.m */; };
 		7EAEF8EB2231FF48008960AA /* ATBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8EA2231FF48008960AA /* ATBaseTableViewCell.m */; };
 		7EAEF8EE223200D7008960AA /* ATFinancialMoreOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8ED223200D7008960AA /* ATFinancialMoreOptionCell.m */; };
 		7EAEF8F32232031A008960AA /* ATBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEF8F22232031A008960AA /* ATBaseCollectionViewCell.m */; };
@@ -64,6 +81,16 @@
 
 /* Begin PBXFileReference section */
 		682226F92F4D8C1A95F974DE /* Pods-PocketBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBook.release.xcconfig"; path = "Target Support Files/Pods-PocketBook/Pods-PocketBook.release.xcconfig"; sourceTree = "<group>"; };
+		7E0B8BE1223FD14300055808 /* UIButton+ATHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ATHelper.h"; sourceTree = "<group>"; };
+		7E0B8BE2223FD14300055808 /* UIButton+ATHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ATHelper.m"; sourceTree = "<group>"; };
+		7E0B8BE5223FD15900055808 /* UIControl+ATFixMultiClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ATFixMultiClick.m"; sourceTree = "<group>"; };
+		7E0B8BE6223FD15900055808 /* UIControl+ATFixMultiClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ATFixMultiClick.h"; sourceTree = "<group>"; };
+		7E0B8BE8223FE91900055808 /* ATShareMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATShareMacro.h; sourceTree = "<group>"; };
+		7E0B8BE9223FFCEE00055808 /* ATBillConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillConfig.h; sourceTree = "<group>"; };
+		7E0B8BEA2240030B00055808 /* ATBillProcessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillProcessTool.h; sourceTree = "<group>"; };
+		7E0B8BEB2240030B00055808 /* ATBillProcessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBillProcessTool.m; sourceTree = "<group>"; };
+		7E1B594422410DEF0045D19A /* ATBillMonthModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillMonthModel.h; sourceTree = "<group>"; };
+		7E1B594522410DEF0045D19A /* ATBillMonthModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBillMonthModel.m; sourceTree = "<group>"; };
 		7E358751222F9DEB003781C0 /* PocketBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E358754222F9DEB003781C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E358755222F9DEB003781C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,11 +137,39 @@
 		7E3587C2222FD1D8003781C0 /* ATFinancialModuleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModuleModel.h; sourceTree = "<group>"; };
 		7E3587C3222FD1D8003781C0 /* ATFinancialModuleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialModuleModel.m; sourceTree = "<group>"; };
 		7E3587C5222FD22B003781C0 /* ATFinancialMuduleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialMuduleConfig.h; sourceTree = "<group>"; };
+		7E3B0D0D223F8F98003F43AC /* ATHomePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomePresenter.h; sourceTree = "<group>"; };
+		7E3B0D0E223F8F98003F43AC /* ATHomePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomePresenter.m; sourceTree = "<group>"; };
+		7E3B0D10223F8FF0003F43AC /* ATHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomeView.h; sourceTree = "<group>"; };
+		7E3B0D11223F8FF0003F43AC /* ATHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomeView.m; sourceTree = "<group>"; };
+		7E3B0D13223F9136003F43AC /* ATHomePresenterIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomePresenterIO.h; sourceTree = "<group>"; };
+		7E3B0D14223F9576003F43AC /* ATBillModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillModel.h; sourceTree = "<group>"; };
+		7E3B0D15223F9576003F43AC /* ATBillModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBillModel.m; sourceTree = "<group>"; };
+		7E3B0D17223FA081003F43AC /* ATHomeHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomeHeadView.h; sourceTree = "<group>"; };
+		7E3B0D18223FA081003F43AC /* ATHomeHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomeHeadView.m; sourceTree = "<group>"; };
+		7E3E7B7622408157004EBEA8 /* DetailBill.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DetailBill.json; sourceTree = "<group>"; };
+		7E3E7B7A22408931004EBEA8 /* ATDaoFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATDaoFactory.h; sourceTree = "<group>"; };
+		7E3E7B7B22408931004EBEA8 /* ATDaoFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATDaoFactory.m; sourceTree = "<group>"; };
+		7E3E7B7E224089F5004EBEA8 /* ATBillDaoImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillDaoImpl.h; sourceTree = "<group>"; };
+		7E3E7B7F224089F5004EBEA8 /* ATBillDaoImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBillDaoImpl.m; sourceTree = "<group>"; };
+		7E3E7B8122408A10004EBEA8 /* ATBillDaoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillDaoProtocol.h; sourceTree = "<group>"; };
+		7E3E7B832240B5E3004EBEA8 /* UIScrollView+ATRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ATRefresh.h"; sourceTree = "<group>"; };
+		7E3E7B842240B5E3004EBEA8 /* UIScrollView+ATRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ATRefresh.m"; sourceTree = "<group>"; };
+		7E3E7B862240C50B004EBEA8 /* ATBillDayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBillDayModel.h; sourceTree = "<group>"; };
+		7E3E7B872240C50B004EBEA8 /* ATBillDayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBillDayModel.m; sourceTree = "<group>"; };
+		7E3E7B892240CD8B004EBEA8 /* ATHomeBillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomeBillCell.h; sourceTree = "<group>"; };
+		7E3E7B8A2240CD8B004EBEA8 /* ATHomeBillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomeBillCell.m; sourceTree = "<group>"; };
+		7E3E7B8D2240D25F004EBEA8 /* ATHomeBillDayHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHomeBillDayHeaderView.h; sourceTree = "<group>"; };
+		7E3E7B8E2240D25F004EBEA8 /* ATHomeBillDayHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHomeBillDayHeaderView.m; sourceTree = "<group>"; };
+		7E3E7B922240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		7E3E7B932240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		7EA00C6C22379FF1004D1C85 /* ATModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATModuleManager.h; sourceTree = "<group>"; };
 		7EA00C6D22379FF1004D1C85 /* ATModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATModuleManager.m; sourceTree = "<group>"; };
 		7EA00C6F2237A04B004D1C85 /* ATPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATPrefixHeader.pch; sourceTree = "<group>"; };
 		7EA00C712237A117004D1C85 /* ATSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATSingleton.h; sourceTree = "<group>"; };
 		7EA00C722237A181004D1C85 /* ATModuleList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ATModuleList.plist; sourceTree = "<group>"; };
+		7EA00C742237A5DB004D1C85 /* ATFinancialModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModule.h; sourceTree = "<group>"; };
+		7EA00C752237A5DB004D1C85 /* ATFinancialModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFinancialModule.m; sourceTree = "<group>"; };
+		7EA00C772237A80E004D1C85 /* ATFinancialModuleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialModuleDefine.h; sourceTree = "<group>"; };
 		7EAEF8E92231FF48008960AA /* ATBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseTableViewCell.h; sourceTree = "<group>"; };
 		7EAEF8EA2231FF48008960AA /* ATBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseTableViewCell.m; sourceTree = "<group>"; };
 		7EAEF8EC223200D7008960AA /* ATFinancialMoreOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFinancialMoreOptionCell.h; sourceTree = "<group>"; };
@@ -180,6 +235,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E0B8BE4223FD15900055808 /* UIControl+ */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B8BE6223FD15900055808 /* UIControl+ATFixMultiClick.h */,
+				7E0B8BE5223FD15900055808 /* UIControl+ATFixMultiClick.m */,
+			);
+			path = "UIControl+";
+			sourceTree = "<group>";
+		};
 		7E358748222F9DEB003781C0 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +271,7 @@
 			children = (
 				7E35878E222FB26D003781C0 /* Common */,
 				7E358787222FAC1D003781C0 /* Core */,
+				7E3E7B7822408901004EBEA8 /* Factory */,
 				7E358786222FAC03003781C0 /* Modules */,
 				7E358754222F9DEB003781C0 /* AppDelegate.h */,
 				7E358755222F9DEB003781C0 /* AppDelegate.m */,
@@ -218,6 +283,7 @@
 				7E358762222F9DEE003781C0 /* Info.plist */,
 				7E358763222F9DEE003781C0 /* main.m */,
 				7EA00C6F2237A04B004D1C85 /* ATPrefixHeader.pch */,
+				7E3E7B7622408157004EBEA8 /* DetailBill.json */,
 			);
 			path = PocketBook;
 			sourceTree = "<group>";
@@ -309,9 +375,14 @@
 		7E358795222FB379003781C0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7E3E7B8C2240D047004EBEA8 /* New Group */,
+				7E3E7B822240B5A1004EBEA8 /* UIScrollView+ */,
+				7E0B8BE4223FD15900055808 /* UIControl+ */,
+				7E3B0D1A223FA2A2003F43AC /* UIButton+ */,
 				7EAEF91422324C65008960AA /* UIView+ */,
 				7EAEF8F722320566008960AA /* UILabel+ */,
 				7E358796222FB386003781C0 /* UIColor+ */,
+				7E3E7B912240D824004EBEA8 /* UINavigationBar+ */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -337,8 +408,10 @@
 		7E35879B222FB74F003781C0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				7E3587A0222FB7A2003781C0 /* ATHomeViewController.h */,
-				7E3587A1222FB7A2003781C0 /* ATHomeViewController.m */,
+				7E3B0D09223F8B92003F43AC /* Controller */,
+				7E3B0D0B223F8F64003F43AC /* View */,
+				7E3B0D0C223F8F71003F43AC /* Model */,
+				7E3B0D0A223F8C0B003F43AC /* Presenter */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -357,6 +430,9 @@
 			children = (
 				7EAEF8FC22324491008960AA /* Provident */,
 				7E3587A8222FC657003781C0 /* Financial */,
+				7EA00C742237A5DB004D1C85 /* ATFinancialModule.h */,
+				7EA00C752237A5DB004D1C85 /* ATFinancialModule.m */,
+				7EA00C772237A80E004D1C85 /* ATFinancialModuleDefine.h */,
 			);
 			path = Financial;
 			sourceTree = "<group>";
@@ -428,6 +504,118 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7E3B0D09223F8B92003F43AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E3587A0222FB7A2003781C0 /* ATHomeViewController.h */,
+				7E3587A1222FB7A2003781C0 /* ATHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E3B0D0A223F8C0B003F43AC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B0D0D223F8F98003F43AC /* ATHomePresenter.h */,
+				7E3B0D0E223F8F98003F43AC /* ATHomePresenter.m */,
+				7E3B0D13223F9136003F43AC /* ATHomePresenterIO.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E3B0D0B223F8F64003F43AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B0D10223F8FF0003F43AC /* ATHomeView.h */,
+				7E3B0D11223F8FF0003F43AC /* ATHomeView.m */,
+				7E3B0D17223FA081003F43AC /* ATHomeHeadView.h */,
+				7E3B0D18223FA081003F43AC /* ATHomeHeadView.m */,
+				7E3E7B8D2240D25F004EBEA8 /* ATHomeBillDayHeaderView.h */,
+				7E3E7B8E2240D25F004EBEA8 /* ATHomeBillDayHeaderView.m */,
+				7E3E7B892240CD8B004EBEA8 /* ATHomeBillCell.h */,
+				7E3E7B8A2240CD8B004EBEA8 /* ATHomeBillCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E3B0D0C223F8F71003F43AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B0D14223F9576003F43AC /* ATBillModel.h */,
+				7E3B0D15223F9576003F43AC /* ATBillModel.m */,
+				7E0B8BEA2240030B00055808 /* ATBillProcessTool.h */,
+				7E0B8BEB2240030B00055808 /* ATBillProcessTool.m */,
+				7E0B8BE9223FFCEE00055808 /* ATBillConfig.h */,
+				7E3E7B862240C50B004EBEA8 /* ATBillDayModel.h */,
+				7E3E7B872240C50B004EBEA8 /* ATBillDayModel.m */,
+				7E1B594422410DEF0045D19A /* ATBillMonthModel.h */,
+				7E1B594522410DEF0045D19A /* ATBillMonthModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E3B0D1A223FA2A2003F43AC /* UIButton+ */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B8BE1223FD14300055808 /* UIButton+ATHelper.h */,
+				7E0B8BE2223FD14300055808 /* UIButton+ATHelper.m */,
+			);
+			path = "UIButton+";
+			sourceTree = "<group>";
+		};
+		7E3E7B7822408901004EBEA8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E7B792240890A004EBEA8 /* DAO */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		7E3E7B792240890A004EBEA8 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E7B7D224089BC004EBEA8 /* DaoImpl */,
+				7E3E7B7A22408931004EBEA8 /* ATDaoFactory.h */,
+				7E3E7B7B22408931004EBEA8 /* ATDaoFactory.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		7E3E7B7D224089BC004EBEA8 /* DaoImpl */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E7B7E224089F5004EBEA8 /* ATBillDaoImpl.h */,
+				7E3E7B7F224089F5004EBEA8 /* ATBillDaoImpl.m */,
+				7E3E7B8122408A10004EBEA8 /* ATBillDaoProtocol.h */,
+			);
+			path = DaoImpl;
+			sourceTree = "<group>";
+		};
+		7E3E7B822240B5A1004EBEA8 /* UIScrollView+ */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E7B832240B5E3004EBEA8 /* UIScrollView+ATRefresh.h */,
+				7E3E7B842240B5E3004EBEA8 /* UIScrollView+ATRefresh.m */,
+			);
+			path = "UIScrollView+";
+			sourceTree = "<group>";
+		};
+		7E3E7B8C2240D047004EBEA8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7E3E7B912240D824004EBEA8 /* UINavigationBar+ */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E7B922240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.h */,
+				7E3E7B932240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = "UINavigationBar+";
+			sourceTree = "<group>";
+		};
 		7EA00C6B22379FDE004D1C85 /* ModuleManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +629,7 @@
 		7EA00C702237A0FB004D1C85 /* Configure_h */ = {
 			isa = PBXGroup;
 			children = (
+				7E0B8BE8223FE91900055808 /* ATShareMacro.h */,
 				7EA00C712237A117004D1C85 /* ATSingleton.h */,
 			);
 			path = Configure_h;
@@ -683,6 +872,7 @@
 				7E35875E222F9DEE003781C0 /* Assets.xcassets in Resources */,
 				7E35875C222F9DEB003781C0 /* Main.storyboard in Resources */,
 				7EA00C732237A181004D1C85 /* ATModuleList.plist in Resources */,
+				7E3E7B77224081E8004EBEA8 /* DetailBill.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,34 +972,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0B8BE3223FD14300055808 /* UIButton+ATHelper.m in Sources */,
 				7E35879F222FB774003781C0 /* ATBaseViewController.m in Sources */,
+				7E3B0D19223FA081003F43AC /* ATHomeHeadView.m in Sources */,
+				7E0B8BEC2240030B00055808 /* ATBillProcessTool.m in Sources */,
 				7E35878B222FAC48003781C0 /* ATTabBarControllerConfig.m in Sources */,
+				7E3E7B80224089F5004EBEA8 /* ATBillDaoImpl.m in Sources */,
+				7E3E7B852240B5E3004EBEA8 /* UIScrollView+ATRefresh.m in Sources */,
 				7E3587A5222FB7AF003781C0 /* ATMyViewController.m in Sources */,
+				7E3E7B7C22408931004EBEA8 /* ATDaoFactory.m in Sources */,
 				7E3587BC222FCABF003781C0 /* ATFinancialView.m in Sources */,
+				7E0B8BE7223FD15900055808 /* UIControl+ATFixMultiClick.m in Sources */,
 				7EAEF90722324532008960AA /* ATProvidentView.m in Sources */,
 				7EAEF8EE223200D7008960AA /* ATFinancialMoreOptionCell.m in Sources */,
+				7E3E7B8B2240CD8B004EBEA8 /* ATHomeBillCell.m in Sources */,
+				7E3E7B882240C50B004EBEA8 /* ATBillDayModel.m in Sources */,
+				7E3B0D0F223F8F98003F43AC /* ATHomePresenter.m in Sources */,
 				7EAEF8F622320388008960AA /* ATFinancialModuleCell.m in Sources */,
 				7E358759222F9DEB003781C0 /* ViewController.m in Sources */,
+				7E3B0D12223F8FF0003F43AC /* ATHomeView.m in Sources */,
 				7EAEF8F32232031A008960AA /* ATBaseCollectionViewCell.m in Sources */,
 				7E358764222F9DEE003781C0 /* main.m in Sources */,
 				7EA00C6E22379FF1004D1C85 /* ATModuleManager.m in Sources */,
 				7E3587B3222FC744003781C0 /* ATFinancialInteractor.m in Sources */,
 				7E358799222FB394003781C0 /* UIColor+ATHelper.m in Sources */,
+				7E1B594622410DEF0045D19A /* ATBillMonthModel.m in Sources */,
 				7E3587B9222FC761003781C0 /* ATFinancialRouter.m in Sources */,
 				7E358793222FB28D003781C0 /* ATBaseNavigationController.m in Sources */,
+				7E3B0D16223F9576003F43AC /* ATBillModel.m in Sources */,
 				7EAEF90D22324558008960AA /* ATProvidentInteractor.m in Sources */,
 				7EAEF8FA22320572008960AA /* UILabel+ATHelper.m in Sources */,
 				7E3587C4222FD1D8003781C0 /* ATFinancialModuleModel.m in Sources */,
 				7EAEF90422324507008960AA /* ATProvidentViewController.m in Sources */,
 				7EAEF90A22324544008960AA /* ATProvidentPresenter.m in Sources */,
 				7EAEF91022324573008960AA /* ATProvidentRouter.m in Sources */,
+				7E3E7B8F2240D25F004EBEA8 /* ATHomeBillDayHeaderView.m in Sources */,
 				7E3587B0222FC713003781C0 /* ATFinancialViewController.m in Sources */,
 				7E3587C1222FD1A4003781C0 /* ATFinancialMoreOptionModel.m in Sources */,
 				7E3587A2222FB7A2003781C0 /* ATHomeViewController.m in Sources */,
+				7E3E7B942240D824004EBEA8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				7EAEF8EB2231FF48008960AA /* ATBaseTableViewCell.m in Sources */,
 				7EAEF91722324C71008960AA /* UIView+ATKit.m in Sources */,
 				7E3587B6222FC753003781C0 /* ATFinancialPresenter.m in Sources */,
 				7E358756222F9DEB003781C0 /* AppDelegate.m in Sources */,
+				7EA00C762237A5DB004D1C85 /* ATFinancialModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,8 @@
 #import "ATFinancialView.h"
 #import "ATFinancialViewProtocol.h"
 
+#import "ATFinancialModule.h"
+
 @interface ATFinancialViewController () <ATFinancialViewProtocol>
 
 @property (nonatomic, strong) ATFinancialView *financialView;
@@ -68,7 +70,8 @@
 #pragma mark - ATFinancialViewProtocol
 
 - (void)financialMoreOptionCell:(UITableViewCell *)cell selectModule:(ATFinancialModuleModel *)moduleModel {
-    [self.moduleInterface pushProvidentInterfaceFromViewCtr:self title:@"公积金"];
+//    [self.moduleInterface pushProvidentInterfaceFromViewCtr:self title:@"公积金"];
+    [ATFinancialModule pushProvidentInterfaceFromNavCtr:self.navigationController];
 }
 
 #pragma mark - getter && setter

@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 #ifdef DEBUG
-    [self configDoraemonKit];
+//    [self configDoraemonKit];
 #endif
     
     self.tabBarCtrConfig = [[ATTabBarControllerConfig alloc] init];
